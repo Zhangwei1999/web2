@@ -1,0 +1,95 @@
+/*
+* @Author: hp
+* @Date:   2019-12-10 19:54:46
+* @Last Modified by:   hp
+* @Last Modified time: 2019-12-11 18:36:41
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+.by{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	width: 1362px;
+	height: 465px;
+}
+.head{
+	width: 1362px;
+	height: 20px;
+	background: url('images/a15.png') no-repeat 200px #ccc;
+}
+.box{
+	width: 900px;
+	height: 20px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+#lbz{
+	color: red;
+	font-size: 14px;
+	display: block;
+	position: absolute;
+	left: 1300px;		
+}
+.trunk{
+	width: 1200px;
+	height: 382px;
+	margin: 20px auto;
+	position: relative;
+	overflow: hidden;
+}
+.lbt{
+	width: 7200px;
+	position: absolute;
+	left: -1200px;
+}
+.photo{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.trunk>span{
+	display: block;
+	width: 30px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 10px;
+	text-align: center;
+	cursor: pointer;
+	top: 161px;
+	background-color: rgb(255, 0, 0);
+	position: absolute;
+	opacity: 0;
+}
+.leftButton{
+	left: 30px;
+}
+.rightButton{
+	right: 30px;
+}
+.select{
+	position: absolute;
+	left: 650px;
+	bottom: 15px;
+}
+.select>li{
+	width: 20px;
+	height: 20px;
+	font-size: 1px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	float: left;
+}
+.select .first{
+	background-color: red;
+	color: white;
+}
