@@ -20,7 +20,7 @@ ul,li{
 .head{
 	width: 1362px;
 	height: 20px;
-	background: url('images/a15.png') no-repeat 200px #ccc;
+	background: url('./a15.png') no-repeat 200px #ccc;
 }
 .box{
 	width: 900px;
